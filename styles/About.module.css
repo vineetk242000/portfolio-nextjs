@@ -1,0 +1,138 @@
+.parent_container{
+    margin: 3rem 0;
+    padding:2rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_container {
+    width:100%;
+    padding:1rem;
+    font-weight: 400;
+}
+
+
+.title{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2;
+}
+
+.text{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 450;
+}
+
+.email_container{
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
+}
+
+.right_container {
+    width:100%;
+    
+}
+
+.image{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 5px;
+   
+}
+
+.image:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social_media_container{
+    margin: 0rem 0 2rem 0;
+    text-align: center;
+}
+
+.social_media_container_header{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.icons{
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 600px) {
+    .title{
+        font-size: 1.6rem;
+    }
+    
+    .text{
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .email_container{
+        font-size: 1.15rem;
+    }
+
+    .social_media_container_header{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (min-width: 960px) {
+    .parent_container{
+        margin: 100px 0 2rem 0;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    
+    .left_container {
+        width:50%;
+        padding:1rem 0;
+    }
+    .title{
+        text-align: start;
+        font-size: 2rem;
+    }
+    
+    .text{
+        font-size: 1.15rem;
+        line-height: 1.8;
+    }
+    
+    .email_container{
+        font-size: 1.2rem;
+    }
+    
+    .right_container {
+        width:40%;
+        
+    }
+    
+    
+    .image:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .social_media_container_header{
+        font-size: 1.5rem;
+    }
+
+
+    .icons{
+        margin: 0.5rem 0.8rem;
+    }
+    
+    
+}
+
+
+@media (min-width: 1200px) {
+    
+}

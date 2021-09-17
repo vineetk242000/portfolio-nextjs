@@ -1,0 +1,26 @@
+.parent_container{
+    margin:2rem 0;
+    padding:1rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.cards{
+    width: 90%;
+    margin:1rem 0;
+    padding:1rem;
+    border-radius: 3px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+@media (min-width: 960px) {
+    .parent_container{
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    .cards{
+        width: 45%;
+        padding:2rem 1rem;
+    }
+}
+

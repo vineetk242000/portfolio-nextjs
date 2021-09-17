@@ -1,0 +1,133 @@
+.parent_container {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.projects_section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+}
+
+.card{
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card_title{
+    font-size: 1.1rem;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+.card_image {
+    width: 100%;
+}
+
+.card_description_container{
+    padding:1rem 1.5rem;
+}
+
+.card_description{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.action_buttons_container{
+    padding:0.5rem 1rem;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+@media (min-width: 600px) {
+    .action_buttons_container{
+       padding:0.5rem 3rem;
+    }
+
+    .button{
+        width: 100%;
+    }
+}
+
+   
+@media (min-width: 960px) {
+    .parent_container {
+        margin: 2rem 0;
+        padding: 2rem 0;
+    }
+    
+    .projects_section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+    
+    .card {
+        width: 47%;
+        margin: 2rem 0;
+        display: flex;
+        flex-flow: column wrap;
+        padding:0;
+        border:1px solid #e6e6e6;
+        box-shadow: none;
+    }
+
+    .card:hover{
+        border: 1px solid transparent;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    
+    
+
+    .card_title{
+        font-size: 1.25rem;
+        text-align: start;
+        padding: 1rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .card_description_container{
+        padding: 0 1rem 1rem 1rem;
+    }
+    
+    .card_description{
+        line-height: 1.5;
+    }
+    
+    .action_buttons_container{
+        padding:0.5rem
+    }
+    
+    .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+
+
+@media (min-width: 1200px) {
+    .card {
+        width: 31.33%;
+    }
+}

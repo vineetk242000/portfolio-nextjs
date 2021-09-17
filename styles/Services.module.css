@@ -1,0 +1,44 @@
+.parent_container{
+    margin:2rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.child_container{
+    width:90%;
+    margin:1rem 0;
+    text-align: center;
+}
+
+.image{
+    width: 75%;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin: 0;
+}
+
+.description{
+    color: #808080;
+    line-height: 1.5;
+}
+
+@media (min-width: 960px) {
+
+    .parent_container{
+        flex-flow:row nowrap;
+        justify-content: space-between;
+    }
+
+    .child_container{
+        width:30.33%;
+        
+    }
+
+    .title{
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+}
