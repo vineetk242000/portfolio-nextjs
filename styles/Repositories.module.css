@@ -7,7 +7,7 @@
 
 .cards{
     width: 90%;
-    margin:1rem 0;
+    margin-bottom: 2rem;
     padding:1rem;
     border-radius: 3px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -19,7 +19,7 @@
 }
 
 .card_content{
-    font-weight: 300;
+    line-height: 1.2;
 }
 
 @media (min-width: 960px) {
@@ -34,6 +34,9 @@
 
     .card_title{
         font-size: 1.25rem;
+    }
+    .card_content{
+        line-height: 1.3;
     }
 }
 

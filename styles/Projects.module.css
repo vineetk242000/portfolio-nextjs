@@ -54,8 +54,8 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
-    border-bottom: 1px solid #00C3FF;
-    border-top: 1px solid #00C3FF;
+    border-bottom: 2px solid #00C3FF;
+    border-top: 2px solid #00C3FF;
     padding:0 0.5rem;
 }
 

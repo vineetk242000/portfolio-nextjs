@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div>
             <Container maxWidth="lg">
-                <Typography variant="h4">Services</Typography>
+                <Typography variant="h4" align="center">Services</Typography>
                 <div className={styles.parent_container}>
                     <div className={styles.child_container}>
                         <img src='img/website_creator1.gif' className={styles.image} />
@@ -21,7 +21,7 @@ const Services = () => {
                     <div className={styles.child_container} >
                         <img src='img/blog_post.gif' className={styles.image} />
                         <p className={styles.title}>Tech Blogging</p>
-                        <p className={styles.description}></p>
+                        <p className={styles.description}>Get regular tech blogs for your website</p>
                     </div>
                 </div>
 

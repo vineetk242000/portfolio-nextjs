@@ -10,7 +10,6 @@
 .left_container {
     width:100%;
     padding:1rem;
-    font-weight: 400;
 }
 
 
@@ -23,7 +22,6 @@
 .text{
     font-size: 1rem;
     line-height: 1.6;
-    font-weight: 450;
 }
 
 .email_container{

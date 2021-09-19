@@ -13,7 +13,7 @@ export const projects = [
         key:4,
         title:'Movies Cite',
         image:'img/movies_cite.png',
-        description:'Movies Cite is a cross platform app offering a beautiful ui across devices. Users can get a detailed info about upcoming  movies and tv series.',
+        description:'Movies Cite is a cross platform app offering a beautiful ui across devices. Get detailed info about upcoming  movies and shows.',
         github_link:'https://github.com/vineetk242000/movies-app-flutter',
         project_link:'',
         tech_stack:['Flutter', 'Rest API']

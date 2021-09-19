@@ -20,7 +20,7 @@ const Projects = () => {
                         <img src={project.image} alt="Insta" className={styles.card_image} />
                     </div>
                     <div className={styles.card_description_container}>
-                        <div style={{height:"100px"}}>
+                        <div style={{height:"80px"}}>
                         <p className={styles.card_description}>{project.description}</p>
                         </div>
                         

@@ -27,7 +27,7 @@ const About = () => {
                     <div className={styles.parent_container}>
                         <div className={styles.left_container}>
                             <h1 className={styles.title}>About Me</h1>
-                            <p className={styles.text}>{user.about}</p>
+                            <div dangerouslySetInnerHTML={{__html: `${user.about}`}} className={styles.text} />
                             <p className={styles.text} style={{ lineHeight: "1" }}>For any queries get in touch with me at:</p>
                             <div className={styles.email_container}>
                                 <EmailRounded style={{ marginRight: "10px" }} />

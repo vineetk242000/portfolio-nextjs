@@ -8,7 +8,7 @@ const Repositories = () => {
     const router = useRouter()
     return (
         <Container maxWidth="lg">
-            <Typography variant="h4">Open Source</Typography>
+            <Typography variant="h4" align="center">Open Source</Typography>
             <div className={styles.parent_container}>
             {repositories.map((repository,i)=>(
                 <div className={styles.cards} key={i} onClick={()=>router.push(repository.link)}>
