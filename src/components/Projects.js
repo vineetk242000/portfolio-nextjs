@@ -20,7 +20,19 @@ const Projects = () => {
                         <img src={project.image} alt="Insta" className={styles.card_image} />
                     </div>
                     <div className={styles.card_description_container}>
+                        <div style={{height:"100px"}}>
                         <p className={styles.card_description}>{project.description}</p>
+                        </div>
+                        
+                            <div className={styles.tech_stack_header}>
+                                <p>Tech Stack</p>
+                            </div>
+                            
+                            <div className={styles.tech_stack_container}>
+                            {project.tech_stack.map((value,i)=>(
+                                <p key={i}>{value}</p>
+                            ))}
+                        </div>
                         <div className={styles.action_buttons_container}>
                             <Button 
                                 variant="outlined" color="secondary" className={styles.button} style={{ marginBottom: "5px",fontWeight:"500" }} 

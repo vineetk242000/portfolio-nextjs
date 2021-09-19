@@ -43,8 +43,24 @@
     text-align: start;
 }
 
+.tech_stack_header{
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+}
+
+.tech_stack_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #00C3FF;
+    border-top: 1px solid #00C3FF;
+    padding:0 0.5rem;
+}
+
 .action_buttons_container{
-    padding:0.5rem 1rem;
+    padding:1rem;
 }
 
 .button{
@@ -112,9 +128,15 @@
     .card_description{
         line-height: 1.5;
     }
+
+    .tech_stack_container{
+        border-bottom: 2px solid #00C3FF;
+        border-top: 2px solid #00C3FF;
+        margin: 1rem 0;
+    }
     
     .action_buttons_container{
-        padding:0.5rem
+        padding:1rem
     }
     
     .button{
