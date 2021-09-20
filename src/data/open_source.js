@@ -15,18 +15,8 @@ export const repositories =[
         link:'https://github.com/vineetk242000/react-weather-app'
     },
     {
-        title:'News App',
-        content:'News App is build on Reactjs and uses News Api to give you the latest updates',
-        link:'https://github.com/vineetk242000/News-App'
-    },
-    {
         title:'Flash Chat backend',
         content:'Backend repository for the Flash chat web app. It uses the Socket.io for realtime chats',
         link:'https://github.com/vineetk242000/Flash-Chat-backend'
-    },
-    {
-        title:'Chat App',
-        content:'A cross platform chatting app for the users and uses Firebase for the realtime chats',
-        link:""
     }
 ]

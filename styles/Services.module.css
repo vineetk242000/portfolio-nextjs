@@ -2,6 +2,7 @@
     margin:2rem 0;
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 .child_container{
@@ -30,6 +31,7 @@
     .parent_container{
         flex-flow:row nowrap;
         justify-content: space-between;
+        align-items: center;
     }
 
     .child_container{
